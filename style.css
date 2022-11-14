@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* NAV BAR */
+nav{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 35px;
+    align-items: center;
+    max-width: 1400px;
+   
+}
+
+.IMG-LOGO{
+    background-color: rgb(191, 35, 222);
+    font-size: 20px;
+    border-radius: 50% ;
+    color: aliceblue;
+    margin-right: 15px;
+    padding: 20px;
+    position: relative;
+    left: 140px;
+    
+}
+.LOGO{
+    font-weight: 700;
+    font-size: 25px;
+    position: relative;
+    
+}
+.nav-links{
+    list-style-type: none;
+    
+}
+ 
+.nav-links>li{
+    display: inline-block;
+    padding: 0px 20px;
+
+    
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+}
+
+.contatos{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(191, 35, 222);
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+    position: relative;
+    left: 300px;
+    
+}
+
+/* Content */
+
+.coloracao{
+    background: linear-gradient( white, pink);
+
+}
+
+.descrition{
+    margin-top: 100px;
+   
+}
+
+.container{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    padding-right: 100px;
+}
+
+.text-descritiom{
+    font-family: sans-serif;   
+}
+
+.text1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    padding-right: 100px;
+    
+
+}
+
+.text-buttom{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(191, 35, 222);
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+    
+
+}
+    
+.img-descrition>img {
+    width: 500px;
+    border-radius:10% ;
+}
+
+.container2{
+    font-family: sans-serif;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    
+    margin: auto;
+    top: 30px;
+    margin-top: 50px;
+    left: 200px;
+    position: relative;
+   
+}
+
+.box1{
+    background-color: rgb(232, 203, 235);
+    margin-right: 20px;
+    padding: 40px;
+}
+.box2{
+    background-color: rgb(232, 203, 235);
+    margin-right: 20px;
+    padding: 40px;
+}
+.box3{
+    background-color: rgb(232, 203, 235);
+    margin-right: 20px;
+    padding: 40px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.minitextos{
+    font-size: 10px;
+    color: rgb(94, 93, 93);
+}
